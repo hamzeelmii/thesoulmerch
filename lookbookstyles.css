@@ -1,0 +1,218 @@
+/* Start of navbar */
+#title {
+
+  color: black;
+
+}
+
+:root {
+  --primaryColor: #f09d51;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --mainSpacing: 0.1rem;
+  --mainTransition: all 0.3s linear;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+  font-family: "Lato", sans-serif;
+
+}
+
+#logo {
+
+height: 80%;
+float:left;
+
+
+}
+.fa-instagram, .fa-twitter {
+
+font-size: 2rem;
+padding: 25px;
+float: right;
+margin-top: 15px;
+color: black
+
+}
+
+
+
+.fixed-nav-bar {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 9999;
+width: 100%;
+height: 100px;
+background-color: #fff;
+border-bottom: 0.2px solid black;
+
+}
+
+/* The element at the top of the page right after the fixed navigation bar
+ MUST have sufficient top margin or else it will be covered by the bar */
+
+/* Example responsive navigation menu  */
+.fixed-nav-bar li, .fixed-nav-bar a {
+height: 50px;
+line-height: 50px;
+margin-left: 5px;
+
+}
+.menu {
+width: 90%;
+max-width: 960px;
+margin: 0 auto;
+
+}
+.menu a, .menu a:visited {
+color: black;
+}
+.menu a:hover, .menu a:target {
+color: black;
+}
+.menu-items {
+display: inline-block;
+
+}
+.sitename {
+display: inline-block;
+margin-right: 50px;
+margin-left: 10px;
+}
+a.sitename, a:visited.sitename {
+color: #e0e0e0;
+}
+.menu-items li {
+display: inline-block;
+margin-left: 20px;
+margin-top: 30px;
+
+font-size: 1.29rem;
+
+}
+.menu-items a {
+text-decoration: none;
+}
+
+
+.hide {
+background: url(up-arrow-icon.png) no-repeat center left;
+
+
+}
+#menuu {
+
+  background-position: center left;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+
+
+
+}
+
+.show, .hide {
+display: none;
+padding-left: 15px;
+background-color: transparent;
+background-position: center left;
+background-repeat: no-repeat;
+color: #dde1e2;
+}
+
+@media only screen and (max-width: 800px) {
+
+
+
+
+
+
+
+.fa-instagram, .fa-twitter {
+  font-size: 2rem;
+  float: left;
+
+
+}
+
+.menu {
+  position: relative;
+  width: 100%;
+}
+.sitename {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  margin-left: 0px;
+}
+.menu-items {
+  display: none;
+  width: 100%;
+  background-color: white;
+}
+.menu-items li {
+  display: block;
+  text-align: center;
+
+}
+.show, .hide, #menuu {
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  font-size: 1.3rem;
+}
+.show {
+  display: inline;
+}
+.hide {
+  display: none;
+}
+#menu:target .show {
+  display: none;
+}
+#menu:target .hide, #menu:target .menu-items {
+  display: inline-block;
+}
+}
+
+@media only screen and (max-width: 220px) {
+.sitename, .show, .hide {
+  font-size: 14px;
+}
+}
+
+
+
+/* --------------- End of Navbar ---------------- */
+.box {
+  left: 0;
+  right: 0;
+  text-align: center;
+  position: relative;
+  margin-top: 100px;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+  #picture {
+
+    max-width: 100%;
+    height: 300px;
+
+  }
+
+}

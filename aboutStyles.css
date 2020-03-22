@@ -1,0 +1,557 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+
+/* Start of navbar */
+
+#title {
+
+  color: black;
+
+}
+
+:root {
+  --primaryColor: #f09d51;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --mainSpacing: 0.1rem;
+  --mainTransition: all 0.3s linear;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+  font-family: "Lato", sans-serif;
+
+}
+
+#logo {
+
+height: 80%;
+float:left;
+
+
+}
+.fa-instagram, .fa-twitter {
+
+font-size: 2rem;
+padding: 25px;
+float: right;
+margin-top: 15px;
+color: black
+
+}
+
+
+
+.fixed-nav-bar {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 9999;
+width: 100%;
+height: 100px;
+background-color: #fff;
+border-bottom: 0.2px solid black;
+
+
+}
+
+/* The element at the top of the page right after the fixed navigation bar
+ MUST have sufficient top margin or else it will be covered by the bar */
+
+/* Example responsive navigation menu  */
+.fixed-nav-bar li, .fixed-nav-bar a {
+height: 50px;
+line-height: 50px;
+margin-left: 5px;
+
+}
+.menu {
+width: 90%;
+max-width: 960px;
+margin: 0 auto;
+
+}
+.menu a, .menu a:visited {
+color: black;
+}
+.menu a:hover, .menu a:target {
+color: black;
+}
+.menu-items {
+display: inline-block;
+
+}
+.sitename {
+display: inline-block;
+margin-right: 50px;
+margin-left: 10px;
+}
+a.sitename, a:visited.sitename {
+color: #e0e0e0;
+}
+.menu-items li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 30px;
+
+  font-size: 1.29rem;
+
+}
+.menu-items a {
+text-decoration: none;
+}
+.show, .hide {
+display: none;
+padding-left: 15px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-position: center left;
+color: #dde1e2;
+}
+.show {
+background-image: url(down-arrow-icon.png);
+}
+.hide {
+background-image: url(up-arrow-icon.png);
+}
+
+@media only screen and (max-width: 800px) {
+
+
+
+
+
+
+
+.fa-instagram, .fa-twitter {
+  font-size: 2rem;
+  float: left;
+
+
+}
+
+.menu {
+  position: relative;
+  width: 100%;
+}
+.sitename {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  margin-left: 0px;
+}
+.menu-items {
+  display: none;
+  width: 100%;
+  background-color: white;
+}
+.menu-items li {
+  display: block;
+  text-align: center;
+
+}
+.show, .hide {
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  font-size: 1.3rem
+}
+.show {
+  display: inline-block;
+}
+.hide {
+  display: none;
+}
+#menu:target .show {
+  display: none;
+}
+#menu:target .hide, #menu:target .menu-items {
+  display: inline-block;
+}
+}
+
+@media only screen and (max-width: 220px) {
+.sitename, .show, .hide {
+  font-size: 14px;
+}
+}
+
+
+
+/* --------------- End of Navbar ---------------- */
+
+.txt {
+
+  margin-top: 120px;
+
+
+}
+#text {
+
+  font-size: 60px;
+  text-align: center;
+
+
+
+
+
+
+}
+
+.txt1 {
+
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-top: 100px;
+
+
+}
+#soul {
+
+  max-width: 100%;
+  height: 250px;
+
+
+
+
+}
+#text1 {
+
+  font-size: 40px;
+  margin-top: 40px;
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+  #soul {
+
+    max-width: 100%;
+    height: 150px;
+
+
+
+  }
+
+  #text1 {
+
+    font-size: 26px;
+    margin-top: 60px;
+
+
+
+
+  }
+
+  .txt1 {
+
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 100px;
+
+
+
+  }
+
+
+
+
+
+}
+
+@media only screen and (max-width: 220px) {
+#text1 {
+  font-size: 15px;
+}
+}
+
+
+
+/* END OF TEXT 1 DIV */
+
+
+#purp, #gold, #red, #blue {
+
+  max-width: 100%;
+  height: 250px;
+}
+
+.pic {
+
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+  #purp, #gold, #red, #blue {
+
+    max-width: 100%;
+    height: 150px;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 200px) {
+
+  #purp, #gold, #red, #blue {
+
+    max-width: 100%;
+    height: 100px;
+  }
+
+
+}
+
+
+/* END OF PICS OF SOULS */
+
+#text2 {
+
+  text-align: center;
+  font-size: 40px;
+
+}
+
+
+.txt2 {
+
+  margin-top: 50px;
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  #text2 {
+
+    text-align: center;
+    font-size: 26px;
+
+  }
+
+
+  .txt2 {
+
+    margin-top: 50px;
+
+  }
+
+
+
+}
+
+
+@media only screen and (max-width: 200px) {
+
+  #text2 {
+
+    text-align: center;
+    font-size: 15px;
+
+  }
+
+
+  .txt2 {
+
+    margin-top: 50px;
+
+  }
+
+
+
+}
+
+
+
+/* end of text 2 */
+
+#split {
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+  color: black;
+  border: solid black;
+  border-style: dotted;
+}
+
+
+.paragraph {
+
+  margin-top: 50px;
+  margin-left: 0;
+  margin-right: 0;
+
+}
+
+#statement {
+  text-align: center;
+  color: black;
+  text-transform: uppercase !important;
+
+  font-family: "PT Sans";
+  -webkit-font-smoothing: antialiased;
+
+
+}
+
+
+
+
+.banner {
+  text-align: center;
+  background: rgba(0, 0, 0);
+  display: inline-block;
+  padding: 1.5rem;
+  margin-top: 50px;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+.banner-title {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  margin-bottom: 2rem;
+  color: white;
+}
+.banner-btn {
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+
+  letter-spacing: var(--mainSpacing);
+  font-size: 1rem;
+  background: var(--primaryColor);
+  color: var(--primaryColor);
+  border: 1px solid var(--primaryColor);
+  transition: var(--mainTransition);
+  cursor: pointer;
+}
+.banner-btn:hover {
+  background: transparent;
+  color: var(--primaryColor);
+  left: 0;
+  right: 0;
+}
+
+/* END OF BANNER */
+
+/* START OF WHO MADE SOUL */
+
+#text3 {
+
+  margin-top: 80px;
+  font-size: 55px;
+  margin-left: 30px;
+
+
+
+}
+
+#me {
+
+  max-width: 900%;
+  height: 500px;
+  margin-top: 30px;
+  margin-left: 40px;
+  float: left;
+
+}
+.picofme {
+
+  width: auto;
+}
+
+.elmi {
+
+  margin: auto;
+  width: 100%;
+  display: flex;
+
+
+
+
+}
+
+.aboutme {
+
+  float: left;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 30px;
+
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+  #text3 {
+
+    text-align: center;
+  }
+
+  #myword {
+    font-size: 23px;
+
+  }
+
+  .aboutme {
+
+    margin-left: 10px;
+
+  }
+
+  .elmi {
+
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+
+
+
+
+
+
+  }
+
+  #me {
+
+    margin: auto;
+    float: none;
+
+
+
+
+
+  }
+
+
+}
+
+
+
+
+
+}
