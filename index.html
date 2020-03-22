@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset = "utf-8">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible"
+  content = "ie=edge">
+  <title> soul </title>
+  <link rel="shortcut icon" type="image/x-icon" href="plswork.png" />
+  <!-- font awesome -->
+
+  <link href="fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet" >
+
+  <!--custom css -->
+  <link rel = "stylesheet" href = "styles.css">
+
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <!-- navbar -->
+
+  <nav class="fixed-nav-bar ">
+    <div id="menu" class="menu">
+      <div class = "center">
+
+        <a href="index.html">
+        <img id = "logo" src = "idk.png" alt ="store logo" />
+      </a>
+
+      <a href = "https://www.instagram.com/thesoulmerch/" title="Instagram">
+        <i class="fab fa-instagram"></i>
+        </a>
+        <a href = "https://twitter.com/thesoulmerch" title = "Twitter">
+            <i class="fab fa-twitter"></i>
+
+
+
+      <!-- Example responsive navigation menu  -->
+
+      <a class="show" href="#menu">menu</a><a class="hide" href="#hidemenu">menu</a>
+      <ul class="menu-items">
+        <li><a href="about.html">about us</a></li>
+        <li><a href="mailto:thesoulmerch@gmail.com">contact</a></li>
+        <li><a href="lookbook.html">lookbook</a></li>
+    </ul>
+        </a>
+
+    </div>
+      </div>
+
+  </nav>
+
+  <!-- end of navbar -->
+  <!-- banner -->
+  <header class = "hero">
+    <div class = "banner">
+      <h1 class = "banner-title"> We all got soul</h1>
+    </div>
+  </header>
+
+
+  <!-- end of banner -->
+  <!-- Products -->
+  <section class = "products">
+      <div class = "section-title">
+        <h2> Products </h2>
+      </div>
+    <div class = "products-center">
+      <!--single product -->
+      <article class = "product">
+        <div class = "img-container">
+          <img src = "WHITESOUL.png" alt = "product" class = "product-img">
+          <button class = "bag-btn"  data-toggle="modal" data-target="#whiteModal">
+            view more
+          </button>
+        </div>
+
+
+        <h3> White Long Sleeve Tee with blossom cherry design on arms </h3>
+
+
+
+      </article>
+
+
+
+
+      <!-- single product -->
+      <article class = "product">
+
+        <div class = "img-container">
+            <div class = "filler">
+          <img src = "BLACKSOUL.png" alt = "product" class = "product-img">
+            </div>
+          <button id = "mybutton" class = "bag-btn" data-toggle="modal" data-target="#Modal" >
+            view more
+          </button>
+
+        </div>
+
+
+        <h3> Black Long Sleeve Tee with blossom cherry design on arms </h3>
+
+
+
+      </article>
+
+
+
+</div>
+</section>
+
+  <!-- end of Products -->
+
+  <!-- Modal -->
+
+
+
+<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="Modal" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">soul cherryblossom black L/S tee</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul class = "list">
+          <li>Unisex Sizing from S-XL</li>
+            <li>Preshrunk Cotton</li>
+              <li>Premium Screenprinting design</li>
+            </ul>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="whiteModal" tabindex="-1" role="dialog" aria-labelledby="whiteModal" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">soul cherryblossom white L/S tee</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul class = "list">
+          <li>Unisex Sizing from S-XL</li>
+            <li>Preshrunk Cotton</li>
+              <li>Premium Screenprinting design</li>
+            </ul>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/js/mdb.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  $('#Modal').on('hidden.bs.modal', function (e) {
+  if (!data) return e.preventDefault() // stops modal from being shown
+})
+
+$('#whiteModal').on('hidden.bs.modal', function (e) {
+if (!data) return e.preventDefault() // stops modal from being shown
+})
+
+</script>
+
+
+
+
+
+</body>
+</html>
